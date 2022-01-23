@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 4.5% 200px;
+  height: 800px;
+  width: 50%;
+  margin-left: 25%;
+
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(229, 45, 253, 1) 79%
+  );
+  border-radius: 10px;
+  padding: 5px 20px 15px 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 96%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #e52dfd;
+  font-style: italic;
+}
+.remember_me,
+.password,
+.myemail {
+  text-align: left;
+  border-radius: 10px;
+  color: #690177;
+}
+
+.platforms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+img {
+  width: 35px;
+  height: 35px;
+  margin: 00px 20px;
+}
+header {
+  margin: 50px;
+}
+input[type="email"] {
+  margin-bottom: 20px;
+}
+button {
+  color: #690177;
+
+  background-color: #d502f0;
+  padding: 10px 15px;
+  margin: 20px;
+  border-radius: 10px;
+}
+p {
+  margin-top: 50px;
+  color: white;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+}
